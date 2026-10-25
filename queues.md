@@ -1,4 +1,3 @@
-users & chats имеют очереди
 ## Очереди 
 ### content.s3.upload
 ```json
@@ -18,12 +17,10 @@ users & chats имеют очереди
 ### content.kag.process
 ```json
 {
-  "message_id": "uuid",
-  "chat_id": "uuid",
+  "content_id": "uuid",
   "company_id": "uuid",
-  "user_id": "uuid",
-  "content": "Что в отчёте про Kyntora?",
-  "created_at": "2025-06-01T12:30:45Z"
+  "original_name": "uuid",
+  "mime_type": "Что в отчёте про Kyntora?",
 }
 ```
 
